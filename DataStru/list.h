@@ -42,4 +42,4 @@ static inline void list_del_node(struct list_head *prev, struct list_head *next)
 	prev->next =next;
 }
 
-
+static inline void list_del
